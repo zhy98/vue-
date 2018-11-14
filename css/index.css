@@ -1,0 +1,52 @@
+*{
+	background: rgba(0,0,0,0.02);
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	position: relative;
+
+
+
+}
+
+.navbar,.header{
+	text-align: center;
+}
+.wrap{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.navbar{
+	text-align: center;
+	background-color: #db4c3f;
+	padding: 10px 0;
+
+
+}
+.navbar h1{
+	font-size: 24px;
+	margin: 0;
+	color: #fff;
+}
+.header{
+	padding: 20px 0;
+	color: #555;
+	font-size: 18px;
+}
+input, button {
+	border: 1px solid rgba(0,0,0, .1);
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+input{
+	width: 100%;
+	display: block;
+}
+.click_b {
+	float: right;
+}
+.item{
+	font-size: 1em;
+	padding-top:10px;
+	padding-bottom:10px;
+}
